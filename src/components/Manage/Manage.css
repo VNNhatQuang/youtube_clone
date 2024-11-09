@@ -1,0 +1,12 @@
+.manage {
+    color: #3ea6f4;
+    width: fit-content;
+    height: fit-content;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.manage:hover {
+    background-color: #263850 !important;
+}

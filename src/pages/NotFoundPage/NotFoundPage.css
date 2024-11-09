@@ -1,0 +1,21 @@
+#not-found-page {
+    width: 100%;
+    height: 100%;
+}
+
+.not-found-img {
+    width: 200px;
+}
+
+.search-box-404 form>input {
+    border: 2px solid #ddd;
+}
+
+.search-box-404 form>input:focus {
+    outline: none;
+}
+
+.search-box-404 form>button {
+    border: 2px solid #ddd;
+    border-left: none;
+}

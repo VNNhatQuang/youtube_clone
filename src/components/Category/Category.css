@@ -1,0 +1,28 @@
+#category {
+    width: 100%;
+    height: 56px;
+    background-color: #0f0f0f;
+    white-space: nowrap;
+    display: flex;
+    padding: 0 20px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+}
+
+.btn-category {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #222222;
+    padding: 5px 15px;
+    border-radius: 7px;
+    margin: 12px 12px 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+.btn-category:hover {
+    background-color: #3f3f3f;
+}

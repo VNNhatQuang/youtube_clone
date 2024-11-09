@@ -1,0 +1,12 @@
+#subscription {
+    display: block;
+    padding: 5px 15px;
+    width: 100%;
+    /* height: calc(100% - 56px); */
+    /* overflow: scroll; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}

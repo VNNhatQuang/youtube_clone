@@ -1,0 +1,109 @@
+#sidebar {
+    width: fit-content;
+    height: 100%;
+    background-color: #0f0f0f;
+    padding: 0 10px;
+    overflow: scroll;
+}
+
+#sidebar::-webkit-scrollbar {
+    width: 8px;
+    height: 100%;
+}
+
+#sidebar::-webkit-scrollbar-track {
+    background: #0f0f0f;
+}
+
+#sidebar::-webkit-scrollbar-thumb {
+    background: #0f0f0f;
+}
+
+#sidebar:hover::-webkit-scrollbar-thumb {
+    background: #555555;
+}
+
+#sidebar>hr {
+    color: #fff !important;
+    margin: 5px 0 !important;
+}
+
+#sidebar>ul {
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    padding: 5px 0;
+    margin-bottom: 0 !important;
+}
+
+
+/* Small */
+
+#sidebar.small {
+    padding: 0 5px;
+}
+
+#sidebar.small::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+#sidebar.small .btn-sidebar {
+    width: 100%;
+    color: #e1e1e1 !important;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 2px;
+    border-radius: 15px;
+}
+
+#sidebar.small .btn-sidebar>p {
+    font-size: 10px;
+    margin-bottom: 0 !important;
+}
+
+#sidebar.small .btn-sidebar:hover {
+    background-color: #222222;
+}
+
+
+/* Large */
+
+#sidebar.large {
+    max-width: 240px;
+}
+
+#sidebar.large .btn-sidebar {
+    width: 100%;
+    color: #e1e1e1 !important;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+#sidebar.large ul>li>a>p {
+    font-size: 15px;
+    margin-bottom: 0 !important;
+    /* Không cho phép ngắt dòng */
+    white-space: nowrap;
+    /* Ẩn phần văn bản tràn ra ngoài */
+    overflow: hidden;
+    /* Hiển thị dấu ba chấm */
+    text-overflow: ellipsis;
+}
+
+#sidebar.large ul>li>a:hover {
+    background-color: #3d3d3d;
+}
+
+#sidebar.large a>i {
+    width: 18px;
+    margin-right: 24px;
+}
+/* 
+#sidebar.large .active {
+    color: #fff;
+    background-color: #3d3d3d;
+} */

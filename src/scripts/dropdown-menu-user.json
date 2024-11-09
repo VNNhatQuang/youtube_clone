@@ -1,0 +1,68 @@
+{
+    "authentication": [
+        {
+            "icon": "fa-brands fa-google",
+            "name": "Tài khoản Google"
+        },
+        {
+            "icon": "fa-solid fa-users-between-lines",
+            "name": "Chuyển đổi tài khoản"
+        },
+        {
+            "icon": "fa-solid fa-arrow-right-from-bracket",
+            "name": "Đăng xuất"
+        }
+    ],
+    "transaction": [
+        {
+            "icon": "fa-brands fa-square-youtube",
+            "name": "YouTube Studio"
+        },
+        {
+            "icon": "fa-solid fa-dollar-sign",
+            "name": "Giao dịch mua và gói thành viên"
+        }
+    ],
+    "commonService" : [
+        {
+            "icon": "fa-solid fa-user-shield",
+            "name": "Dữ liệu của bạn trong YouTube"
+        },
+        {
+            "icon": "fa-regular fa-moon",
+            "name": "Giao diện: Tối"
+        },
+        {
+            "icon": "fa-solid fa-language",
+            "name": "Ngôn ngữ: Tiếng Việt"
+        },
+        {
+            "icon": "fa-solid fa-file-shield",
+            "name": "Chế độ hạn chế: Đã tắt"
+        },
+        {
+            "icon": "fa-solid fa-globe",
+            "name": "Địa điểm: Hoa Kỳ"
+        },
+        {
+            "icon": "fa-regular fa-keyboard",
+            "name": "Phím tắt"
+        }
+    ],
+    "setting": [
+        {
+            "icon": "fa-solid fa-gear",
+            "name": "Cài đặt"
+        }
+    ],
+    "helper": [
+        {
+            "icon": "fa-regular fa-circle-question",
+            "name": "Trợ giúp"
+        },
+        {
+            "icon": "fa-solid fa-exclamation",
+            "name": "Gửi ý kiến phản hồi"
+        }
+    ]
+}

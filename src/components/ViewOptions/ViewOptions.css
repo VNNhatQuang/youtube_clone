@@ -1,0 +1,16 @@
+.view-options {
+    width: fit-content;
+    height: fit-content;
+}
+
+.view-options a {
+    display: block;
+    color: #fff;
+    width: 40px !important;
+    height: 40px !important;
+    text-align: center;
+}
+
+.view-options a:hover {
+    background: #3f3f3f;
+}

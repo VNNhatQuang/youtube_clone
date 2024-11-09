@@ -1,0 +1,51 @@
+.video-item {
+    width: 20rem;
+    height: fit-content;
+    /* float: left; */
+    margin: 0 2px 30px 2px;
+}
+
+.video-item a {
+    text-decoration: none;
+}
+
+.video-item .thumbnail {
+    width: fit-content;
+}
+
+.video-item .thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.video-item .detail {
+    display: flex;
+    margin: 10px 0;
+}
+
+.video-item .channel-img img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.box-title {
+    color: #aaa !important;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.box-title .title {
+    color: #f1f1f1;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.channel-name  {
+    color: #aaa;
+    margin-bottom: 5px;
+}
+
+.channel-name:hover  {
+    color: #ddd;
+}
+

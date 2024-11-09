@@ -1,0 +1,214 @@
+{
+    "data_small": [
+        {
+            "name": "Trang chủ",
+            "icon": "house",
+            "href": "/"
+        },
+        {
+            "name": "Short",
+            "icon": "play",
+            "href": "shorts"
+        },
+        {
+            "name": "Kênh đăng ký",
+            "icon": "circle-play",
+            "href": "subscriptions"
+        },
+        {
+            "name": "Bạn",
+            "icon": "circle-play",
+            "href": "you"
+        }
+    ],
+    "data_large": {
+        "navigation": [
+            {
+                "name": "Trang chủ",
+                "icon": "house",
+                "href": "/"
+            },
+            {
+                "name": "Short",
+                "icon": "play",
+                "href": "shorts"
+            },
+            {
+                "name": "Kênh đăng ký",
+                "icon": "circle-play",
+                "href": "subscriptions"
+            }
+        ],
+        "personal": [
+            {
+                "name": "Kênh của bạn",
+                "icon": "image-portrait",
+                "href": "channel"
+            },
+            {
+                "name": "Video đã xem",
+                "icon": "clock-rotate-left",
+                "href": "history"
+            },
+            {
+                "name": "Danh sách phát",
+                "icon": "forward-step",
+                "href": "playlist"
+            },
+            {
+                "name": "Video của bạn",
+                "icon": "play",
+                "href": "myvideo"
+            },
+            {
+                "name": "Xem sau",
+                "icon": "clock",
+                "href": "watchlater"
+            },
+            {
+                "name": "Video đã thích",
+                "icon": "thumbs-up",
+                "href": "like"
+            }
+        ],
+        "subscribe": [
+            {
+                "channel": "W2W Movie",
+                "image": "https://yt3.ggpht.com/exTN_DqJd-XvDwy4z7yWml6r_Vd4YZc4q_7Sy4ROnmpjizviLgD9CmLB3hIBkFAbv6TP6i9ZvQ=s88-c-k-c0x00ffffff-no-rj"
+            },
+            {
+                "channel": "Phê Phim",
+                "image": "https://yt3.ggpht.com/ytc/AIdro_nVtvlWXjHCB6JpyqJZsa2QNhLfQDmh7-pZWfIJ1JiJRzM=s88-c-k-c0x00ffffff-no-rj"
+            },
+            {
+                "channel": "cobiASMR",
+                "image": "https://yt3.ggpht.com/-TfuwPGWFgdqvOlSGmHecZxpgBw6qoL6zm-UoeZQRlBORZ6sgH1T_d0OuJ6h_Fmpna2myue2PA=s88-c-k-c0x00ffffff-no-rj"
+            },
+            {
+                "channel": "W2W Movie",
+                "image": "https://yt3.ggpht.com/exTN_DqJd-XvDwy4z7yWml6r_Vd4YZc4q_7Sy4ROnmpjizviLgD9CmLB3hIBkFAbv6TP6i9ZvQ=s88-c-k-c0x00ffffff-no-rj"
+            },
+            {
+                "channel": "Phê Phim",
+                "image": "https://yt3.ggpht.com/ytc/AIdro_nVtvlWXjHCB6JpyqJZsa2QNhLfQDmh7-pZWfIJ1JiJRzM=s88-c-k-c0x00ffffff-no-rj"
+            },
+            {
+                "channel": "cobiASMR",
+                "image": "https://yt3.ggpht.com/-TfuwPGWFgdqvOlSGmHecZxpgBw6qoL6zm-UoeZQRlBORZ6sgH1T_d0OuJ6h_Fmpna2myue2PA=s88-c-k-c0x00ffffff-no-rj"
+            },
+            {
+                "channel": "W2W Movie",
+                "image": "https://yt3.ggpht.com/exTN_DqJd-XvDwy4z7yWml6r_Vd4YZc4q_7Sy4ROnmpjizviLgD9CmLB3hIBkFAbv6TP6i9ZvQ=s88-c-k-c0x00ffffff-no-rj"
+            },
+            {
+                "channel": "Phê Phim",
+                "image": "https://yt3.ggpht.com/ytc/AIdro_nVtvlWXjHCB6JpyqJZsa2QNhLfQDmh7-pZWfIJ1JiJRzM=s88-c-k-c0x00ffffff-no-rj"
+            },
+            {
+                "channel": "cobiASMR",
+                "image": "https://yt3.ggpht.com/-TfuwPGWFgdqvOlSGmHecZxpgBw6qoL6zm-UoeZQRlBORZ6sgH1T_d0OuJ6h_Fmpna2myue2PA=s88-c-k-c0x00ffffff-no-rj"
+            }
+        ],
+        "explore": [
+            {
+                "name": "Thịnh hành",
+                "icon": "fire",
+                "href": "trending"
+            },
+            {
+                "name": "Âm nhạc",
+                "icon": "music",
+                "href": "music"
+            },
+            {
+                "name": "Phim và chương trình truyền hình",
+                "icon": "film",
+                "href": "storefront"
+            },
+            {
+                "name": "Trực tiếp",
+                "icon": "tower-broadcast",
+                "href": "live"
+            },
+            {
+                "name": "Trò chơi",
+                "icon": "gamepad",
+                "href": "gaming"
+            },
+            {
+                "name": "Tin tức",
+                "icon": "newspaper",
+                "href": "news"
+            },
+            {
+                "name": "Thể thao",
+                "icon": "trophy",
+                "href": "sports"
+            },
+            {
+                "name": "Khóa học",
+                "icon": "lightbulb",
+                "href": "courses"
+            },
+            {
+                "name": "Thời trang và làm đẹp",
+                "icon": "house-flag",
+                "href": "fashion"
+            },
+            {
+                "name": "Chơi game",
+                "icon": "chess-board",
+                "href": "playables"
+            }
+        ],
+        "services": [
+            {
+                "name": "YouTube Premium",
+                "icon": "youtube",
+                "href": "premium"
+            },
+            {
+                "name": "YouTube Studio",
+                "icon": "youtube_studio",
+                "href": "studio"
+            },
+            {
+                "name": "YouTube TV",
+                "icon": "youtube_tv",
+                "href": "tv"
+            },
+            {
+                "name": "YouTube Music",
+                "icon": "youtube_music",
+                "href": "youtube_music"
+            },
+            {
+                "name": "YouTube Kids",
+                "icon": "youtube_kids",
+                "href": "kids"
+            }
+        ],
+        "settings": [
+            {
+                "name": "Cài đặt",
+                "icon": "gear",
+                "href": "account"
+            },
+            {
+                "name": "Nhật ký báo cáo",
+                "icon": "flag",
+                "href": "reporthistory"
+            },
+            {
+                "name": "Trợ giúp",
+                "icon": "question",
+                "href": "/"
+            },
+            {
+                "name": "Gửi ý kiến phản hồi",
+                "icon": "circle-exclamation",
+                "href": "/"
+            }
+        ]
+    }
+}

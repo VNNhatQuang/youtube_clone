@@ -1,0 +1,59 @@
+{
+    "guidePrimary": [
+        {
+            "name": "About",
+            "href": "/about"
+        },
+        {
+            "name": "Press",
+            "href": "/press"
+        },
+        {
+            "name": "Copyright",
+            "href": "/copyright"
+        },
+        {
+            "name": "Contact Us",
+            "href": "/contact_us"
+        },
+        {
+            "name": "Creators",
+            "href": "/creators"
+        },
+        {
+            "name": "Advertise",
+            "href": "/advertise"
+        },
+        {
+            "name": "Developers",
+            "href": "/developers"
+        }
+    ],
+    "guideSecondary": [
+        {
+            "name": "Terms",
+            "href": "/terms"
+        },
+        {
+            "name": "Privacy",
+            "href": "/privacy"
+        },
+        {
+            "name": "Policy & Safety",
+            "href": "/policies"
+        },
+        {
+            "name": "How YouTube works",
+            "href": "/howyoutubeworks/?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen"
+        },
+        {
+            "name": "Test new features",
+            "href": "/new"
+        },
+        {
+            "name": "NFL Sunday Ticket",
+            "href": "/nflsundayticket"
+        }
+    ],
+    "copyright": "© 2024 Google LLC"
+}
