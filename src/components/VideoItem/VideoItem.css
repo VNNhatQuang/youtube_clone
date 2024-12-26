@@ -1,8 +1,7 @@
 .video-item {
     width: 20rem;
     height: fit-content;
-    /* float: left; */
-    margin: 0 2px 30px 2px;
+    margin: 0 8px 40px 24px;
 }
 
 .video-item a {
@@ -23,8 +22,12 @@
     margin: 10px 0;
 }
 
-.video-item .channel-img img {
-    width: 80%;
+.channel-img {
+    width: 70px;
+}
+
+.video-item img {
+    width: 100%;
     border-radius: 50%;
 }
 
