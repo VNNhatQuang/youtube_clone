@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import LogoHeader from "../../assets/logo/youtube-header.svg";
+import LogoHeader from "../../assets/logos/youtube-header.svg";
 import "./NotFoundPage.css";
 
 

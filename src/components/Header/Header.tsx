@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Header.css';
-import LogoHeader from '../../assets/logo/youtube-header.svg';
+import LogoHeader from '../../assets/logos/youtube-header.svg';
 import React, { useState } from 'react';
 import dataDropdownMenuUser from "../../scripts/dropdown-menu-user.json";
 
