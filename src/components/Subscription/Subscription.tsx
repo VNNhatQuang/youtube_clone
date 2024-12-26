@@ -1,8 +1,7 @@
 import React from 'react';
 import "./Subscription.css";
 import dataSubscription from "../../scripts/home.json"
-import VideoItem from '../VideoItem/VideoItem';
-
+import { VideoItem } from '../VideoItem';
 
 
 const Subscription: React.FC = () => {
@@ -13,7 +12,7 @@ const Subscription: React.FC = () => {
                     <VideoItem
                         key={index}
                         thumbnailImg={video.thumbnailImg}
-                        title={video.title} 
+                        title={video.title}
                         channelImg={video.channelImg}
                         channelName={video.channelName}
                         views={video.views}
@@ -24,5 +23,7 @@ const Subscription: React.FC = () => {
         </div>
     );
 };
+
+
 
 export default Subscription;

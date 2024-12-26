@@ -20,4 +20,5 @@ const SideBar: React.FC<SideBar> = ({ toggleMenu }) => {
 };
 
 
+
 export default SideBar;

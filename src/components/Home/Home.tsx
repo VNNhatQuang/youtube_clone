@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Home.css";
-import VideoItem from "../VideoItem/VideoItem";
+import { VideoItem } from "../VideoItem";
 
 
 interface Video {
@@ -28,7 +28,7 @@ const Home: React.FC<HomeProps> = ({ data }) => {
                     <VideoItem
                         key={index}
                         thumbnailImg={video.thumbnailImg}
-                        title={video.title} 
+                        title={video.title}
                         channelImg={video.channelImg}
                         channelName={video.channelName}
                         views={video.views}
@@ -39,5 +39,7 @@ const Home: React.FC<HomeProps> = ({ data }) => {
         </div>
     );
 };
+
+
 
 export default Home;

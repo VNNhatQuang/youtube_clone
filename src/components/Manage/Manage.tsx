@@ -17,4 +17,6 @@ const Manage: React.FC<Manage> = ({ title }) => {
     );
 };
 
+
+
 export default Manage;

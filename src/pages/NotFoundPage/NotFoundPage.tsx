@@ -4,7 +4,6 @@ import LogoHeader from "../../assets/logos/youtube-header.svg";
 import "./NotFoundPage.css";
 
 
-
 const NotFoundPage: React.FC = () => {
     return (
         <div id="not-found-page" className="wrap-content d-flex flex-column align-items-center justify-content-center">
@@ -24,5 +23,7 @@ const NotFoundPage: React.FC = () => {
         </div>
     );
 };
+
+
 
 export default NotFoundPage;

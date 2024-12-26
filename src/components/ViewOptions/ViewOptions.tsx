@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './ViewOptions.css';
 
+
 const ViewOptions = () => {
     return (
         <div className="view-options d-flex">
@@ -17,5 +18,7 @@ const ViewOptions = () => {
         </div>
     );
 };
+
+
 
 export default ViewOptions;

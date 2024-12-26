@@ -3,7 +3,6 @@ import "./Footer.css";
 import footerData from "../../scripts/footer.json";
 
 
-
 const Footer: React.FC = () => {
     return (
         <footer id="footer" className='my-3'>
@@ -21,5 +20,7 @@ const Footer: React.FC = () => {
         </footer>
     );
 };
+
+
 
 export default Footer;

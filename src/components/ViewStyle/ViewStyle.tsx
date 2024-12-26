@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const ViewStyle = () => {
     return (
         <div className="view style">
@@ -7,5 +8,7 @@ const ViewStyle = () => {
         </div>
     );
 };
+
+
 
 export default ViewStyle;

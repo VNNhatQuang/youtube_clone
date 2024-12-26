@@ -22,4 +22,6 @@ const Category: React.FC<CategoryProps> = ({ categoryData = [] }) => {
     );
 };
 
+
+
 export default Category;

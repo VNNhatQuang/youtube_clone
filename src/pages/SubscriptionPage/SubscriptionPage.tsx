@@ -4,7 +4,6 @@ import Manage from '../../components/Manage/Manage';
 import ViewOptions from '../../components/ViewOptions/ViewOptions';
 
 
-
 const SubscriptionPage = () => {
     return (
         <div id="subscription-page" className="wrap-content">
@@ -20,5 +19,7 @@ const SubscriptionPage = () => {
         </div>
     );
 };
+
+
 
 export default SubscriptionPage;

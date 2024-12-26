@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from './components/Header/Header';
-import SideBar from "./components/Sidebar/SideBar";
+import { Header } from './components/Header';
+import { SideBar } from "./components/Sidebar";
 import user from "./scripts/user.json";
-import HomePage from './pages/HomePage/HomePage';
-import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
-import SubscriptionPage from './pages/SubscriptionPage/SubscriptionPage';
+import { HomePage } from './pages/HomePage';
+import { NotFoundPage } from './pages/NotFoundPage';
+import { SubscriptionPage } from './pages/SubscriptionPage';
 
 
 
@@ -22,7 +22,7 @@ function App() {
             <div id="App">
                 <Header userName={user.name} avatar={user.avatar} handleClickMenu={handleClickMenu}></Header>
                 <div className="d-flex wrap-sidebar-content">
-                    {/* Content */}
+                    {/* Content Page */}
                     <SideBar toggleMenu={toggleMenu}></SideBar>
                     <Routes>
                         <Route path="/" element={<HomePage />} />

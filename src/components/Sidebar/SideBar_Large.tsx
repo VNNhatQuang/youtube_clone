@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import "./SideBar.css";
-import Footer from "../Footer/Footer";
+import { Footer } from "../Footer";
 import youtubeLogo from "../../assets/icons/youtube.svg";
 import youtubeStudioLogo from "../../assets/icons/youtube_studio.svg";
 import youtubeTVLogo from "../../assets/icons/youtube_tv.svg";
@@ -157,5 +157,7 @@ const SideBar_Large: React.FC<SideBar_Large> = ({ sidebarData }) => {
         </nav>
     );
 };
+
+
 
 export default SideBar_Large;

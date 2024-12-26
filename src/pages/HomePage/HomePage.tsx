@@ -5,7 +5,6 @@ import Category from '../../components/Category/Category';
 import dataHome from "../../scripts/home.json";
 
 
-
 const HomePage: React.FC = () => {
     return (
         <div id="home-page" className="wrap-content">
@@ -14,5 +13,7 @@ const HomePage: React.FC = () => {
         </div>
     );
 };
+
+
 
 export default HomePage;
