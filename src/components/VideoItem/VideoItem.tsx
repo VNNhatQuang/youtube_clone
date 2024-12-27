@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import "./VideoItem.css";
+import FormatNumber from '../../utils/formatNumber';
 
 
 interface VideoItem {
@@ -15,6 +16,9 @@ interface VideoItem {
 
 
 const VideoItem: React.FC<VideoItem>  = ({ thumbnailImg, title, channelImg, channelName, views, uploadTime }) => {
+    const viewsFormat = FormatNumber.formatNumberToString(views);
+    const uploadTimeFormat = uploadTime;
+    
     return (
         <div className="video-item">
             <a href="">
@@ -29,8 +33,9 @@ const VideoItem: React.FC<VideoItem>  = ({ thumbnailImg, title, channelImg, chan
                         <h6 className="title">{title}</h6>
                         <p className="channel-name">{channelName}</p>
                         <div className="views-upload">
-                            <span className="views">{views}</span>
-                            <span className="upload">{uploadTime}</span>
+                            <span className="views">{viewsFormat} lượt xem</span>
+                            &nbsp;•&nbsp;
+                            <span className="upload">{uploadTimeFormat}</span>
                         </div>
                     </div>
                 </div>
