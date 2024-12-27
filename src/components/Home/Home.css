@@ -3,7 +3,6 @@
     margin-top: 56px;
     width: 100%;
     height: calc(100% - 56px);
-    /* overflow: scroll; */
     display: flex;
     flex-wrap: wrap;
     gap: 2px;

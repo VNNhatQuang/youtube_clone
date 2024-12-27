@@ -1,13 +1,17 @@
 #category {
-    width: 100%;
+    width: calc(100% - 250px);
     height: 56px;
     background-color: #0f0f0f;
     white-space: nowrap;
     display: flex;
     padding: 0 20px;
-    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: hidden;
     position: fixed;
-    z-index: 1;
+}
+
+#category::-webkit-scrollbar {
+    display: none;
 }
 
 .btn-category {

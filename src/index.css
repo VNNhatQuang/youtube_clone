@@ -38,19 +38,19 @@ body {
 }
 
 .wrap-content {
-    width: calc(100%);
+    width: 100%;
     background-color: #0f0f0f;
     overflow: scroll;
     overflow-x: hidden;
 }
 
 .wrap-sidebar-content { 
-    height: calc(100% - 50px);
+    height: calc(100% - 60px);
 }
 
 .wrap-content::-webkit-scrollbar,
 .main-content::-webkit-scrollbar {
-    width: 15px;
+    width: 10px;
     height: 100%;
 }
 
@@ -63,4 +63,5 @@ body {
 .main-content::-webkit-scrollbar-thumb {
     width: 50%;
     background: #ababab;
+    border-radius: 10px;
 }
